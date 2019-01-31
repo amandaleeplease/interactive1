@@ -9,7 +9,7 @@
     #toc {
   position: fixed;
   top: .1em;
-  right: .1em;
+  left: .1em;
   /* a background color might help it be differentiated from the rest */
   /* that means you'll have to change the color of the text */
   color: #FFF8DC	;
