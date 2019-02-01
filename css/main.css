@@ -1,13 +1,13 @@
   body {
-      background:lightsalmon ;
+      background:lightsalmon 
       /* The above is called a hex code.
          There are two other ways to do colors in CSS: rgb and common names
          Find "Digital Color Meter" on your computer to explore more */
       color: white;
       font-size: 22px;
       text-align: center;
-    }
-
+  
+}
 h1 {
   /* here I'm making the title not bold (by default headings are always bold)
      centered, larger, tighter leading, and with some bottom space or margin */ 
