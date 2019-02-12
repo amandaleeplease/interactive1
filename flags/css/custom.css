@@ -1,0 +1,78 @@
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: #D7F0FE;
+}
+ #octagon {
+      width: 300px;
+      height: 300px;
+      background: #FEF242;
+      position: relative;
+      top: -849px;
+      left: 88px;
+      -webkit-clip-path: polygon(32% 18%, 66% 12%, 91% 30%, 88% 60%, 64% 84%, 28% 88%, 5% 70%, 10% 39%);
+clip-path: polygon(32% 18%, 66% 12%, 91% 30%, 88% 60%, 64% 84%, 28% 88%, 5% 70%, 10% 39%);
+    }
+#octagon-2 {
+      width: 300px;
+      height: 300px;
+      background: #FECE49;
+      position: relative;
+      top:  -1132px;
+      left: 86px;
+      -webkit-clip-path: polygon(20% 70%, 41% 76%, 61% 73%, 86% 56%, 64% 84%, 28% 88%, 5% 70%, 10% 39%);
+clip-path: polygon(20% 70%, 41% 76%, 61% 73%, 86% 56%, 64% 84%, 28% 88%, 5% 70%, 10% 39%);
+    }
+#octagon-3 {
+      width: 300px;
+      height: 300px;
+      background: #FEFABE;
+      position: relative;
+      top:  -1440px;
+      left: 96px;
+     -webkit-clip-path: polygon(33% 19%, 57% 15%, 75% 24%, 59% 22%, 35% 26%, 19% 32%);
+clip-path: polygon(33% 19%, 57% 15%, 75% 24%, 59% 22%, 35% 26%, 19% 32%);
+ }
+ #octagon-4 {
+      width: 260px;
+      height: 260px;
+      background: #649830;
+      position: relative;
+      top: -300px;
+      left: 246px;
+     -webkit-clip-path: polygon(33% 16%, 49% 23%, 61% 35%, 70% 49%, 73% 66%, 54% 58%, 43% 46%, 35% 31%);
+clip-path: polygon(33% 16%, 49% 23%, 61% 35%, 70% 49%, 73% 66%, 54% 58%, 43% 46%, 35% 31%);
+}
+#octagon-5 {
+      width: 280px;
+      height: 280px;
+      background: #A4C66A;
+      position: relative;
+      top:  -588px;
+      left: 267px;
+     -webkit-clip-path: polygon(23% 25%, 39% 23%, 53% 26%, 65% 33%, 75% 45%, 60% 47%, 45% 43%, 32% 36%);
+clip-path: polygon(23% 25%, 39% 23%, 53% 26%, 65% 33%, 75% 45%, 60% 47%, 45% 43%, 32% 36%);
+}
+#parallelogram {
+      width: 350px;
+      height: 300px;
+      transform: skew(10deg);
+      background: #87560B;
+      position: relative;
+      top: -5px;
+    left: 77px;
+      -webkit-clip-path: polygon(81% 8%, 85% 8%, 73% 23%, 68% 24%);
+
+
+}
