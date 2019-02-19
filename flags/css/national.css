@@ -1,18 +1,26 @@
 
-* {
-        margin: 0px; padding: 0px;
-}
 
 /* make the background of the page black */
-body {
-        background: black;
+body{
+display: flex;
+width: 100%;
+height: 100vh;
+justify-content: center;
+align-items: center;
+background: #FE4E4E;
+}
+
+
+* {
+        margin: 0px; padding: 0px;
+
 }
 
 /* flag canvas */
 #canvas {
         width: 500px;
         height: 300px;
-        position: relative;
+        position: absolute;
         background: yellow;
 }
 
