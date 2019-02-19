@@ -67,22 +67,22 @@ img.profile {
   max-width: 150px;
 }
 a{
-  color: #FFA500;
+  color: black;
 }
 
 /* visited link */
 a:visited {
-  color: #FFA500;
+  color: black;
 }
 
 /* mouse over link */
 a:hover {
-  color: white;
+  color: gray;
 }
 
 /* selected link */
 a:active {
-  color: #FFA500;
+  color: black;
 }
 body {
 font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 

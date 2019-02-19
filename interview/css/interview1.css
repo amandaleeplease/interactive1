@@ -1,5 +1,5 @@
   body {
-      background:#DAA520;
+      background:white;
       /* The above is called a hex code.
          There are two other ways to do colors in CSS: rgb and common names
          Find "Digital Color Meter" on your computer to explore more */
@@ -12,7 +12,7 @@
   left: .1em;
   /* a background color might help it be differentiated from the rest */
   /* that means you'll have to change the color of the text */
-  color: #FFF8DC	;
+  color: black	;
   /* some padding might make it look better */
   padding: 1em;
   /* maybe making the font size here smaller will help too */
@@ -20,12 +20,12 @@
   }
 
 #toc a {
-  color: #FFF8DC;
+  color: black;
   text-decoration: none;
 }
 
 #toc a:hover {
-  color: #FFBC00;
+  color: black;
 }
 
 img.resize {
@@ -44,6 +44,7 @@ h1 {
   font-size: 4em;
   line-height: 1.1;
   margin-bottom: 1em;
+  color: black;
 }
 
 h2 {
@@ -52,12 +53,13 @@ h2 {
      added some top margin */
   padding: 1em;
   font-weight: normal;
-  color: #FFF8DC;
+  color: black;
   text-transform: uppercase;
 }
 
 p{
       margin-bottom: 50px;
+      color: black;
 }
 img.profile {
   max-width: 150px;
@@ -72,14 +74,14 @@ img.profile {
     }
 /* unvisited link */
 a{
-	color:#FFF8DC;
+	color:black;
 }
 a:link {
-  color: #FFF8DC;
+  color: black;
 }
 /* mouse over link */
 a:hover {
-  color: #FFBC00;
+  color: black;
 /* selected link */
 
 }
