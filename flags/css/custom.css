@@ -3,15 +3,20 @@
 }
 
 /* make the background of the page black */
-body {
-        background: black;
+body{
+display: flex;
+width: 100%;
+height: 100vh;
+justify-content: center;
+align-items: center;
+background: #FEBDAD;
 }
 
 /* flag canvas */
 #canvas {
         width: 500px;
         height: 300px;
-        position: relative;
+        position: absolute;
         background: #D7F0FE;
 }
  #octagon {
@@ -73,6 +78,25 @@ clip-path: polygon(23% 25%, 39% 23%, 53% 26%, 65% 33%, 75% 45%, 60% 47%, 45% 43%
       top: -5px;
     left: 77px;
       -webkit-clip-path: polygon(81% 8%, 85% 8%, 73% 23%, 68% 24%);
+    }
+    
+/*#canvas:hover { 
+        background: #FE9545 ;
+        transition: all 1s ease-in-out 1s;
+    animation-iteration-count: infinite;
+      }*/
 
-
+@keyframes background {
+  0%    { background: #D7F0FE; }
+  50%   { background: #9CDAFE; }
+  100%  { background: #D7F0FE; }
 }
+#canvas { 
+  animation: background 2000ms alternate infinite;
+}
+
+
+
+
+
+    
