@@ -1,0 +1,76 @@
+body {
+	background: black;
+}
+.parent{
+	position:relative;
+	top:0;
+	left:0;
+}
+.image1 {
+  position: absolute ;
+  top: 0;
+  left: 0;
+  height:900px;
+}
+.image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:900px;
+}
+.image3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:900px;
+}
+
+.image3{
+	transition: all 1s ease;
+}
+.image3:hover {
+	opacity: .1;
+	filter: blur (1px);
+	transform: translateX(100px);
+}
+.image1{
+	transition: all 1s ease;
+}
+.image1:hover {
+	opacity: .1;
+	filter: blur (2px);
+	transform: translateX(-100px);
+}
+.image2{
+	transition: all 1s ease;
+}
+.image2:hover {
+	opacity: .1;
+	filter: blur (4px);
+	transform: translateX(100px);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+   	opacity: 1;
+  }
+}
+
+.image1 {
+   animation-name: fade;
+   animation-delay: 4s;
+   animation-duration: 3s; 
+}
+.image2 {
+   animation-name: fade;
+   animation-delay: 8s;
+   animation-duration: 3s; 
+}
+.image3 {
+   animation-name: fade;
+   animation-delay: 12s;
+   animation-duration: 3s; 
+}
