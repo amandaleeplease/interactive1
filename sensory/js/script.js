@@ -1,24 +1,3 @@
-// // A $( document ).ready() block.
-// // $( function (){
-// //     $(".img").addclass('show');
-// // });
-
-
-// $('document').ready(function(){
-//     $('.img').addClass('show');  
-    
-//     $(".image1").click(function(){
-//     	$(".image1").toggleClass("image1move");
-// 	});    
-   
-//     $(".image2").click(function(){
-//     	$(".image2").toggleClass("image2move");
-// 	});
-    
-//     $(".image3").click(function(){
-//     	$(".image3").toggleClass("image3move");
-// 	});
-// });
 
 $('document').ready(function(){
     
