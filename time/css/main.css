@@ -311,7 +311,7 @@ by default it's hidden, but adding a class
 #hidden-window-o {
   position: absolute;
   top: 100px;
-  left: 1000px;
+  left: 900px;
   width: 100px;
   height: 100px;
   display: none;
@@ -511,4 +511,19 @@ by default it's hidden, but adding a class
   display: block;  
 }
 
+
+#hidden-window-information {
+  position: absolute;
+  top: 350px;
+  left: 410px;
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+#hidden-window-information img{
+  width: 900px;
+  height: auto;
+}
+#hidden-window-information.show {
+  display: block;  
 }

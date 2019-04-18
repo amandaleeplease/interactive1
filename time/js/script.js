@@ -137,7 +137,12 @@ $(document).ready(function(){
 		$('#hidden-window-z').toggleClass('show');
 		$(this).toggleClass('active2');
 	});
+	$('.about').click(function(){
+		//hide and show #hidden-window
+		$('#hidden-window-information').toggleClass('show');
+		$(this).toggleClass('active2');
 
+	});
 });
 
 
