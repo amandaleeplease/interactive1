@@ -1,0 +1,648 @@
+* {
+        /*margin: 10px;*/
+}
+body{
+width: 100vw;
+height: 100vh; 
+background:transparent url(file:///Users/amandalee/Desktop/interactive1/alphabet/image/backgroundskycopy.png)
+}
+
+/*ABOUT*/
+#about{
+	width:100vw;
+	height:100vh;
+	top: 480vh;
+	position:absolute;
+	color:white;
+	font-family:'Rosella-Deco';
+	margin-left:100px;
+}
+h1{
+	font-family:'Rosella-Deco';
+	font-size: 40px;
+}
+h2{
+	font-family:'Didot';
+	font-size: 20px;
+	font-weight: 100;
+	color:white;
+	width:40vw;
+	line-height: 24pt;
+}
+
+/*CONSTELLATIONS*/
+#constellations{
+	width: 100vw;
+	height: 100vh;
+	/*background:red;*/
+	z-index:4;
+	position: absolute;
+	top:0px;
+}
+#constellations div{
+	width: 10vw;
+	/*display: inline-block;*/
+	z-index:5;
+}
+
+/*LETTERS*/
+#letters{
+	width: 100vw;
+	height: 100vh;
+	/*background:blue;*/
+	position: absolute;
+	top:300vh;
+	margin-left: 30px;
+}
+#letters div {
+	width: 13vw;
+	display: inline-block;
+}
+
+/*NUMBERS*/
+#numbers{
+	width: 100vw;
+	height: 50vh;
+	position: absolute;
+	top:410vh;
+	margin-left: 30px;
+
+	/*animation:rotate 100s infinite;*/
+}
+#numbers div {
+	width: 13vw;
+	display: inline-block;
+}
+
+/*PLANETARIUM*/
+#planetarium {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index:2;
+}
+#planetarium div {
+	width: 6vw;
+	display: inline-block;
+	z-index:3;
+}
+#planetarium div {
+	transform: scale(2);
+}
+
+/*MOUNTAINS1*/
+
+#mountains{
+top:3395px;
+left:-200px;
+position:absolute;
+transform:scale(.7,.7);
+/*background-position: absolute;
+background:transparent url(file:///Users/amandalee/Desktop/interactive1/alphabet/image/mountains.png)
+z-index:4;
+*/}
+
+/*MOUNTAINS2*/
+
+#mountains2{
+top:2360px;
+left:520px;
+position:absolute;
+transform:scale(.7,.7);
+/*transform:scale(.7,.7);*/
+/*background-position: absolute;
+background:transparent url(file:///Users/amandalee/Desktop/interactive1/alphabet/image/mountains2.png)
+z-index:4;*/
+}
+
+/*ZODIAC*/
+
+#zodiacones{
+top:4460px;
+left:300px;
+position:absolute;
+/*transform:scale(.9,.9);*/
+}
+/*CLOUDS*/
+.clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100vw;
+  height:80vh;
+  display:block;
+  transform:scale(1,1.5);
+}
+.clouds{
+    background:transparent url(file:///Users/amandalee/Desktop/interactive1/alphabet/image/newsky.png) repeat top center;
+    z-index:1;
+
+  -moz-animation:move-clouds-back 100s linear infinite;
+  -ms-animation:move-clouds-back 100s linear infinite;
+  -o-animation:move-clouds-back 100s linear infinite;
+  -webkit-animation:move-clouds-back 100s linear infinite;
+  animation:move-clouds-back 100s linear infinite;
+}
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+/*HOVER*/
+svg:hover path {
+    fill: #FEF6BF;
+    transform:scale(1.2,1.2);
+        transition: all ease 0.5s;
+    /*filter:drop-shadow(20px 5px 20px rgba(255, 0, 0, 1));*/
+    /*transform:rotate(10deg);*/
+}
+svg:hover circle {
+    fill:  #FEF6BF;
+    transform:scale(1.2,1.2);
+    transition: all ease 0.5s;
+    /*transform:rotate(10deg);*/
+}
+svg * {
+    transition: all 0s;    
+}
+svg:hover polygon {
+    fill:  #FEF6BF;
+    transform:scale(1.2,1.2);
+    transition: all ease 0.5s;
+    /*transform:rotate(10deg);*/
+}
+svg:hover rect {
+    fill:  #FEF6BF;
+    transform:scale(1.2,1.2);
+    transition: all ease 0.5s;
+
+    /*transform:rotate(10deg);*/
+}
+svg:hover line {
+    fill:  #FEF6BF;
+    transform:scale(1.2,1.2);
+    transition: all ease 0.5s;
+    /*transform:rotate(10deg);
+}*/
+}
+
+/*CONSTELLATIONS*/
+#y2{
+position: relative;
+top: 10px;
+left: 350px;
+transform: rotate(70deg);
+}
+#u2{
+position: relative;
+top: 600px;
+left: 10px;	
+transform: rotate(30deg);
+}
+#n2{
+position: relative;
+top: 260px;
+left: 400px;	
+}
+#l2{
+position: relative;
+top: 200px;
+left: 800px;
+transform: rotate(-120deg);
+}
+#b2{
+position: relative;
+top: -130px;
+left: 1400px;	
+transform: rotate(-70deg);
+}
+#d2{
+position: relative;
+top: -710px;
+left: 1400px;	
+transform: rotate(-70deg);
+}
+#f2{
+position: relative;
+top: -1400px;
+left: 10px;
+transform: rotate(-70deg);	
+}
+#m2{
+position: relative;
+top: -900px;
+left: 900px;
+transform: rotate(210deg);	
+}
+#x2{
+position: relative;
+top: -750px;
+left: 10px;
+transform: rotate(-40deg);
+}
+#i2{
+position: relative;
+top: -590px;
+left: 1200px;
+transform: rotate(-60deg);	
+}
+
+/*CHART*/
+#chart{
+    background:transparent url(file:///Users/amandalee/Desktop/interactive1/alphabet/image/chart.png);
+    width: 97vw;
+	height: 167.8vh;
+	left:10px;
+	position: relative;
+	top:90px;
+	left:19px;
+	z-index:3;
+}
+
+/*FIRST ZODIAC SET*/
+#sentence1{
+	width: 100vw;
+	height: 168vh;
+	position: absolute;
+	top:110vh;
+	/*background:red;*/
+	animation:rotate 100s infinite;
+
+}
+
+@keyframes rotate {
+	0% {transform:rotate(0deg);}
+	100% {transform:rotate(360deg);}
+}
+
+
+@keyframes rotate2 {
+	0% {transform:rotate(360deg);}
+	100% {transform:rotate(0deg);}
+}
+
+#sentence1 div {
+	width: 10vw;
+	display: inline-block;
+
+}
+
+/*GEMINI*/
+#g4{
+position: relative;
+top: 1085px;
+left: 200px;
+transform: rotate(-103deg);
+}
+#e4{
+position: relative;
+top: 968px;
+left: -15px;
+transform: rotate(-129deg);	
+}
+#m4{
+position: relative;
+top: 848px;
+left: -234px;	
+transform: rotate(-104deg);
+}
+#i4{
+position: relative;
+top: 758px;
+left: -406px;
+transform: rotate(97deg);
+}
+#n4{
+position: relative;
+top: 640px;
+left: -586px;
+transform: rotate(-80deg);
+}
+#ii4{
+position: relative;
+top: 581px;
+left: -718px;
+transform: rotate(118deg);
+}
+
+/*PISCES*/
+#p5{
+position: relative;
+top: 239px;
+left: 75px;
+transform: rotate(42deg);
+}
+#i5{
+position: relative;
+top: 299px;
+left: -14px;
+transform: rotate(42deg);
+}
+#s5{
+position: relative;
+top: 366px;
+left: -133px;
+transform: rotate(50deg);
+}
+#c5{
+position: relative;
+top: 285px;
+left: 1303px;
+transform: rotate(66deg);
+}
+#e5{
+position: relative;
+top: 383px;
+left: 1169px;
+transform: rotate(47deg);
+}
+#ss5{
+position: relative;
+top: 499px;
+left: 1022px;
+transform: rotate(88deg);
+}
+
+/*ARIES*/
+#a6{
+position: relative;
+top: 676px;
+left: 859px;
+transform: rotate(120deg);
+}
+#r6{
+position: relative;
+top: 800px;
+left: 628px;
+transform: rotate(128deg);
+}
+#i6{
+position: relative;
+top: 913px;
+left: 413px;
+transform: rotate(125deg);
+}
+#e6{
+position: relative;
+top: 1003px;
+left: 175px;
+transform: rotate(140deg);
+}
+#s6{
+position: relative;
+top: 1084px;
+left: -95px;
+transform: rotate(170deg);
+}
+
+/*AQUARIUS*/
+#a7{
+position: relative;
+top: 242px;
+left: -1159px;
+transform: rotate(-40deg);
+}#q7{
+position: relative;
+top: -16px;
+left: 303px;
+transform: rotate(-51deg);
+}
+#u7{
+position: relative;
+top: -101px;
+left: 207px;
+transform: rotate(-40deg);
+}
+#aa7{
+position: relative;
+top: -157px;
+left: 149px;
+transform: rotate(-38deg);	
+}
+#r7{
+position: relative;
+top: -203px;
+left: 109px;	
+transform: rotate(-21deg);
+}
+#i7{
+position: relative;
+top: -218px;
+left: 38px;
+transform: rotate(-10deg);
+}
+#uu7{
+position: relative;
+top: -227px;
+left: -24px;
+transform: rotate(-10deg);
+}
+#s7{
+position: relative;
+top:-194px;
+left: -76px;
+transform: rotate(20deg);
+}
+
+/*TAURUS*/
+#t8{
+position: relative;
+top: 1017px;
+left: -298px;
+transform: rotate(159deg);
+}
+#a8{
+position: relative;
+top: 1037px;
+left: -576px;
+transform: rotate(182deg);
+}
+#u8{
+position: relative;
+top: 884px;
+left: 670px;
+transform: rotate(184deg);
+}
+#r8{
+position: relative;
+top: 833px;
+left: 378px;
+transform: rotate(204deg);
+}
+#uu8{
+position: relative;
+top: 791px;
+left: 95px;
+transform: rotate(204deg);
+}#s8{
+position: relative;
+top: 708px;
+left: -159px;
+transform: rotate(231deg);
+}
+
+/*SECOND ZODIAC SET*/
+#sentence2{
+	width: 100vw;
+	height: 168vh;
+	position: absolute;
+	top:110vh;
+	animation:rotate2 100s infinite;
+
+	/*background-color: red;*/
+}
+#sentence2 div {
+	width: 10vw;
+	display: inline-block;
+
+
+}
+
+/*CANCER*/
+#c9{
+position: relative;
+top: 393px;
+left: 808px;
+transform: rotate(-11deg);
+}
+#a9{
+position: relative;
+top: 437px;
+left: 752px;
+transform: rotate(36deg);
+}
+#n9{
+position: relative;
+top: 496px;
+left: 698px;
+transform: rotate(34deg);
+}
+#cc9{
+position: relative;
+top: 597px;
+left: 561px;
+transform: rotate(59deg);
+}
+#e9{
+position: relative;
+top: 689px;
+left: 409px;
+transform: rotate(64deg);
+}
+#r9{
+position: relative;
+top: 798px;
+left: 232px;
+transform: rotate(96deg);
+}
+/*LEO*/
+#l10{
+position: relative;
+top: 935px;
+left: 27px;
+transform: rotate(122deg);
+}
+#e10{
+position: relative;
+top: 993px;
+left: -222px;
+transform: rotate(106deg);
+}
+#o10{
+position: relative;
+top: 1047px;
+left: -492px;
+transform: rotate(-14deg);
+}
+/*VIRGO*/
+#v11{
+position: relative;
+top: 914px;
+left: 730px;
+transform: rotate(188deg);
+}
+#i11{
+position: relative;
+top: 890px;
+left: 467px;
+transform: rotate(36deg);
+}
+#r11{
+position: relative;
+top: 811px;
+left: 180px;
+transform: rotate(226deg);
+}
+#g11{
+position: relative;
+top: 745px;
+left: -71px;
+transform: rotate(248deg);
+}
+#o11{
+position: relative;
+top: 623px;
+left: -270px;
+transform: rotate(81deg);
+}
+/*LIBRA*/
+#l12{
+position: relative;
+top: 480px;
+left: -481px;
+transform: rotate(-78deg);
+}
+#i12{
+position: relative;
+top: 415px;
+left: -602px;
+transform: rotate(120deg);
+}
+#b12{
+position: relative;
+top: 330px;
+left: -712px;
+transform: rotate(-44deg);
+}
+#r12{
+position: relative;
+top: 264px;
+left: -785px;
+transform: rotate(-38deg);
+}
+#a12{
+position: relative;
+top: 60px;
+left: 662px;
+transform: rotate(-4deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
